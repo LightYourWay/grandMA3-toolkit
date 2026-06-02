@@ -1,10 +1,11 @@
 {
 	"name": "grandma3-toolkit",
 	"version": "0.2.0",
-	"main": "src/index.ts",
+	"main": "dist/index",
 	"types": "src/index.ts",
 	"files": [
-		"src"
+		"src",
+		"dist"
 	],
 	"description": "A helpful library of functions and more for grandMA3 LUA plugin development using grandMA3-types.",
 	"homepage": "https://github.com/LightYourWay/grandMA3-toolkit#readme",
@@ -19,6 +20,8 @@
 	"author": "Lukas Runge",
 	"scripts": {
 		"check": "tsc --noEmit",
+		"build": "tstl",
+		"prepublishOnly": "npm run build",
 		"docs": "typedoc"
 	},
 	"peerDependencies": {
