@@ -1,0 +1,36 @@
+{
+	"name": "grandma3-toolkit",
+	"version": "0.1.0",
+	"main": "src/index.ts",
+	"types": "src/index.ts",
+	"files": [
+		"src"
+	],
+	"description": "A helpful library of functions and more for grandMA3 LUA plugin development using grandMA3-types.",
+	"homepage": "https://github.com/LightYourWay/grandMA3-toolkit#readme",
+	"bugs": {
+		"url": "https://github.com/LightYourWay/grandMA3-toolkit/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/LightYourWay/grandMA3-toolkit.git"
+	},
+	"license": "LGPL-3.0-or-later",
+	"author": "Lukas Runge",
+	"scripts": {
+		"check": "tsc --noEmit"
+	},
+	"peerDependencies": {
+		"grandma3-types": "^0.10.0",
+		"lua-types": "^2.14.1",
+		"typescript-to-lua": "^1.36.0"
+	},
+	"devDependencies": {
+		"grandma3-tsserver-plugin": "^0.3.0",
+		"grandma3-types": "^0.10.0",
+		"lua-types": "^2.14.1",
+		"prettier": "^3.8.3",
+		"typescript": "^6.0.2",
+		"typescript-to-lua": "^1.36.0"
+	}
+}

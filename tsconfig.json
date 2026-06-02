@@ -1,0 +1,16 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+	"compilerOptions": {
+		"rootDir": "src",
+		"target": "ESNext",
+		"lib": ["ESNext"],
+		"types": ["@typescript-to-lua/language-extensions", "lua-types/5.4", "grandma3-types"],
+		"strict": true,
+		"plugins": [
+			{
+				"name": "grandma3-tsserver-plugin"
+			}
+		]
+	},
+	"include": ["src/**/*"]
+}
