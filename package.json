@@ -28,7 +28,7 @@
 	},
 	"devDependencies": {
 		"grandma3-tsserver-plugin": "^0.3.0",
-		"grandma3-types": "^0.10.0",
+		"grandma3-types": "^0.10.1",
 		"lua-types": "^2.14.1",
 		"prettier": "^3.8.3",
 		"typedoc": "^0.28.19",
