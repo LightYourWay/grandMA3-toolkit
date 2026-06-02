@@ -22,7 +22,7 @@
 		"docs": "typedoc"
 	},
 	"peerDependencies": {
-		"grandma3-types": "^0.10.0",
+		"grandma3-types": "^0.10.1",
 		"lua-types": "^2.14.1",
 		"typescript-to-lua": "^1.36.0"
 	},
