@@ -1,0 +1,14 @@
+{
+	"$schema": "https://typedoc.org/schema.json",
+	"plugin": ["typedoc-github-theme"],
+	"entryPoints": ["src/index.ts"],
+	"out": "docs",
+	"name": "grandMA3-toolkit",
+	"readme": "README.md",
+	"includeVersion": true,
+	"excludePrivate": true,
+	"excludeInternal": true,
+	"navigationLinks": {
+		"GitHub": "https://github.com/LightYourWay/grandMA3-toolkit"
+	}
+}

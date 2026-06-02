@@ -18,7 +18,8 @@
 	"license": "LGPL-3.0-or-later",
 	"author": "Lukas Runge",
 	"scripts": {
-		"check": "tsc --noEmit"
+		"check": "tsc --noEmit",
+		"docs": "typedoc"
 	},
 	"peerDependencies": {
 		"grandma3-types": "^0.10.0",
@@ -30,6 +31,8 @@
 		"grandma3-types": "^0.10.0",
 		"lua-types": "^2.14.1",
 		"prettier": "^3.8.3",
+		"typedoc": "^0.28.19",
+		"typedoc-github-theme": "^0.4.0",
 		"typescript": "^6.0.2",
 		"typescript-to-lua": "^1.36.0"
 	}
