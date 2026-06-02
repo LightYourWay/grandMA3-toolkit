@@ -28,13 +28,13 @@ template.
 Import helpers from the package root:
 
 ```ts
-import { is } from 'grandma3-toolkit/helpers';
+import { is } from 'grandma3-toolkit';
 
 const obj = SomeHandleReturningFunction();
 
 if (is.Sequence(obj)) {
   // obj is now typed as Sequence
-  Printf('Sequence: %s', obj.Name);
+  Printf('Sequence: %s', obj.name);
 }
 
 if (is.DataPools(obj)) {
@@ -61,7 +61,7 @@ npm install
 npm run check
 ```
 
-The package ships TypeScript sources directly (`"main": "src/main.ts"`); the
+The package ships TypeScript sources directly (`"main": "src/index.ts"`); the
 consuming plugin project does the TypeScriptToLua compilation. There is no
 build step in this repository.
 
